@@ -1,0 +1,76 @@
+.cover__overlay {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+
+.cover__overlay::before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.75;
+	z-index: -1;
+	position: absolute;
+}
+
+.cover__overlay:hover::before {
+	opacity: 0.5;
+}
+
+@media screen and (min-width:1280px) {
+	.cover__overlay {
+		max-width: 1184px;
+		min-height: 740px;
+	}
+
+	.cover__overlay::before {
+		min-height: 100%;
+	}
+}
+
+@media screen and (min-width:1024px) and (max-width:1280px) {
+	.cover__overlay {
+		max-width: 100%;
+		min-height: 640px;
+	}
+
+	.cover__overlay::before {
+		max-height: 100%;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+	.cover__overlay {
+		width: 100%;
+		min-height: 480px;
+	}
+}
+
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+	.cover__overlay {
+		max-width: 100%;
+		min-height: 100%;
+	}
+
+	.cover__overlay::before {
+		min-height: 100%;
+	}
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+	.cover__overlay {
+		min-width: 320px;
+		min-height: 200px;
+	}
+
+	.cover__overlay::before {
+		min-height: 100%;
+	}
+}
