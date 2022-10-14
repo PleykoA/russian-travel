@@ -14,10 +14,3 @@
 		max-width: 100%;
 	}
 }
-
-@media (min-width: 320x) {
-	.lead {
-		margin: 0 auto 64px;
-		max-width: 100%;
-	}
-}
