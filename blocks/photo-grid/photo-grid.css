@@ -21,6 +21,7 @@
 		max-width: calc(100% - 48px);
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 16px;
+		align-self: start;
 	}
 }
 
@@ -30,4 +31,14 @@
 		max-width: calc(100% - 32px);
 		grid-template-columns: 1fr;
 	}
+}
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        max-width: 288px;
+        width: 90%;
+        grid-gap: 12px;
+        margin-bottom: 64px;
+        padding: 0;
+    }
 }

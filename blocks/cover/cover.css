@@ -48,3 +48,9 @@
 		object-fit: contain;
 	}
 }
+
+@media screen and (max-width: 320px) {
+    .cover {
+        max-width: 320px;
+    }
+}

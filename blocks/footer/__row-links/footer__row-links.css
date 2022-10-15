@@ -13,3 +13,9 @@
 	  margin-bottom: 32px;
 	}
   }
+
+  @media screen and (max-width: 320px) {
+    .footer__row-links {
+        margin-bottom: 48px;
+    }
+}
