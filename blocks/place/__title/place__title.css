@@ -13,7 +13,7 @@
 @media screen and (max-width: 1024px) {
 	.place__title {
 		max-width: 440px;
-		margin-bottom: 48px;
+		margin-bottom: 8px;
 	}
 }
 
@@ -32,6 +32,6 @@
 		line-height: 109%;
 		max-width: 288px;
 		margin-left: 16px;
-		margin-bottom: 32px;
+		margin-bottom: 0;
 	}
 }
