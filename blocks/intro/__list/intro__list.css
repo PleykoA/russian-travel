@@ -1,18 +1,10 @@
 .intro__list {
-	font-family: 'Inter', Arial, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+	align-items: left;
+	color: white;
+	font-weight: 700;
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-	font-weight: 700;
-}
-
-@media screen and (min-width: 320px) and (max-width: 425px) {
-	.intro__list {
-		min-height: 100%;
-		margin-top: 34px;
-		min-width: 288px;
-		font-size: 12px;
-		line-height: 150%;
-		font-style: normal;
-	}
 }

@@ -1,16 +1,10 @@
 .footer__row-links {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
-	.footer__row-links {
-	  margin-bottom: 32px;
-	}
+@media screen and (max-width: 425px) {
+  .footer__row-links {
+    margin-bottom: 32px;
   }
-
-  @media screen and (max-width: 320px) {
-    .footer__row-links {
-        margin-bottom: 48px;
-    }
 }
