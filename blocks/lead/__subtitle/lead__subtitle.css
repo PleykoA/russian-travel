@@ -2,20 +2,26 @@
 	font-weight: 400;
 	text-align: center;
 	color: rgba(255, 255, 255, 1);
-	margin: 0 auto 56px;
+	margin: 0 auto;
 	font-style: normal;
 	font-size: 30px;
 	line-height: 120%;
 	max-width: 640px;
+	margin-bottom: 64px;
 }
 
+@media screen and (max-width: 1024px) {
+	.lead__subtitle {
+		margin-bottom: 56px;
+	}
+}
 
 @media screen and (max-width: 425px) {
-		.lead__subtitle {
-			max-width: 288px;
-			width: 90%;
-			font-size: 16px;
-			line-height: 125%;
-			margin-bottom: 40px;
-		}
+	.lead__subtitle {
+		max-width: 288px;
+		width: 90%;
+		font-size: 16px;
+		line-height: 125%;
+		margin-bottom: 40px;
 	}
+}
