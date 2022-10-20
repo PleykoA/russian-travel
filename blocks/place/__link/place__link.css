@@ -1,19 +1,19 @@
 .place__link {
-	color: white;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 122%;
-	font-style: normal;
-	margin-bottom: 48px;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
+  font-style: normal;
+  margin-bottom: 48px;
 }
 
 .place__link:hover {
-	opacity: .8;
+  opacity: .8;
 }
 
 @media screen and (max-width: 425px) {
-	.place__link {
-		max-width: 288px;
-		margin-left: 16px;
-	}
+  .place__link {
+    max-width: 288px;
+    margin-left: 16px;
+  }
 }
